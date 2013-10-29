@@ -1,4 +1,5 @@
 @CHARSET "UTF-8";
+
 body {
 	font: normal 100.01% serif, Helvetica, Arial, sans-serif;
 	color: black;
@@ -8,6 +9,7 @@ body {
 ul#headerUL {
 	font: normal 100.00% serif, Helvetica, Arial;
 	background-color: white;
+	text-align: center;
 }
 
 ul#Navigation {
@@ -47,6 +49,10 @@ ul#Navigation a:hover,ul#Navigation span {
 	border-top-color: black;
 	color: white;
 	background-color: gray;
+}
+
+#content {
+	text-align: center;
 }
 
 #footer {
