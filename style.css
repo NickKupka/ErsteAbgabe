@@ -51,9 +51,15 @@ ul#Navigation a:hover,ul#Navigation span {
 	background-color: gray;
 }
 
-#content {
+#textzentriert {
+	text-align: center;
+	font-weight: bold;
+}
+
+#impressum {
 	text-align: center;
 }
+
 
 #footer {
 	font-size: small;
