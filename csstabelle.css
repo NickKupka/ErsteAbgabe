@@ -1,0 +1,486 @@
+a {
+	
+}
+
+abbr {
+	
+}
+
+acronym {
+	
+}
+
+address {
+	
+}
+
+area {
+	
+}
+
+b {
+	
+}
+
+base {
+	
+}
+
+bdo {
+	
+}
+
+big {
+	
+}
+
+blockquote {
+	
+}
+
+body {
+	
+}
+
+br {
+	
+}
+
+button {
+	
+}
+
+caption {
+	
+}
+
+cite {
+	
+}
+
+
+code {
+	
+}
+
+col {
+	
+}
+
+colgroup {
+	
+}
+
+dd {
+	
+}
+
+del {
+	
+}
+
+dfn {
+	
+}
+
+div {
+	
+}
+
+dl {
+	
+}
+
+dt {
+	
+}
+
+em {
+	
+}
+
+fieldset {
+	
+}
+
+form {
+	
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+h3 {
+	
+}
+
+h4 {
+	
+}
+
+h5 {
+
+}
+
+h6 {
+	
+}
+
+head {
+	
+}
+
+hr {
+	
+}
+
+html {
+	
+}
+
+i {
+	
+}
+
+img {
+	
+}
+
+input {
+	
+}
+
+ins {
+	
+}
+
+
+kbd {
+	
+}
+
+label {
+	
+}
+
+legend {
+	
+}
+
+li {
+	
+}
+
+link {
+	
+}
+
+map {
+	
+}
+
+meta {
+	
+}
+
+noscript {
+	
+}
+
+object {
+	
+}
+
+ol {
+	
+}
+
+optgroup {
+	
+}
+
+option {
+	
+}
+
+p {
+	
+}
+
+param {
+	
+}
+
+pre {
+	
+}
+
+q {
+	
+}
+
+
+samp {
+	
+}
+
+script {
+	
+}
+
+select {
+	
+}
+
+small {
+	
+}
+
+span {
+	
+}
+
+strong {
+	
+}
+
+style {
+	
+}
+
+sub {
+	
+}
+
+sup {
+	
+}
+
+table {
+	border-style: double;
+	align:center;
+	border: 0;
+}
+
+
+
+tbody {
+	overflow:auto;
+	align:center;
+}
+
+td {
+	border-style: solid;
+	text-align:center;
+	
+}
+
+td.nth-child(1){
+	text: bold;
+}
+
+tr td{
+}
+	
+textarea {
+	
+}
+
+tfoot {
+	
+}
+
+th {
+	
+}
+
+thread {
+	
+}
+
+title {
+	
+}
+
+tr {
+
+}
+
+tt {
+	
+}
+
+ul {
+	
+}
+
+var {
+	
+}
+
+
+
+ul#headerUL {
+	font: normal 100.00% serif, Helvetica, Arial;
+	background-color: white;
+	text-align: center;
+}
+
+ul#Navigation {
+	margin: 25px;
+	padding: 0.8em;
+	text-align: center;
+	border: 1px solid black;
+	background-color: silver;
+}
+
+ul#Navigation li {
+	list-style: none;
+	display: inline;
+	margin: 0.4em;
+	padding: 0;
+}
+
+ul#Navigation a,ul#Navigation span {
+	padding: 0.2em 1em;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid black;
+	border-left-color: white;
+	border-top-color: white;
+	color: black;
+	background-color: #ccc;
+}
+
+* html ul#Navigation a,* html ul#Navigation span {
+	width: 1em; /* nur fuer IE 5.0x erforderlich */
+	w /idth: auto; /* sicherheitshalber fuer IE 6 zurueckgesetzt */
+}
+
+ul#Navigation a:hover,ul#Navigation span {
+	border-color: white;
+	border-left-color: black;
+	border-top-color: black;
+	color: white;
+	background-color: gray;
+}
+
+#textzentriert {
+	text-align: center;
+	font-weight: bold;
+}
+
+#impressum {
+	text-align: center;
+}
+
+#tabelleAbgabe{
+	position: center;
+}
+
+#footer {
+	font-size: small;
+	position: center;
+	bottom: 10px;
+	margin: 10px;
+	text-align: center;
+	position: center;
+}
+
+thead.fixedHeader tr {
+	position: relative;
+}
+
+html>body thead.fixedHeader tr {
+	display: block;
+	width: 80%;
+}
+
+/* make the TH elements pretty */
+thead.fixedHeader th {
+	background: #C96;
+	border-left: 1px solid #EB8;
+	border-right: 1px solid #B74;
+	border-top: 1px solid #EB8;
+	font-weight: normal;
+	padding: 2px 3px;
+	text-align: center;
+}
+
+/* define the table content to be scrollable                                              */
+/* set TBODY element to have block level attributes. All other non-IE browsers            */
+/* this enables overflow to work on TBODY element. All other non-IE, non-Mozilla browsers */
+/* induced side effect is that child TDs no longer accept width: auto                     */
+html>body tbody.scrollContent {
+	display: block;
+	height: 280px;
+	overflow: auto;
+	width: 80%;
+}
+
+/* make TD elements pretty. Provide alternating classes for striping the table */
+/* http://www.alistapart.com/articles/zebratables/                             */
+tbody.scrollContent td,tbody.scrollContent tr.normalRow td {
+	background: #FFF;
+	border-bottom: none;
+	border-left: none;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #DDD;
+	padding: 2px 3px 3px 4px;
+}
+
+
+
+/* define width of TH elements: 1st, 2nd, and 3rd respectively.          */
+/* Add 16px to last TH for scrollbar padding. All other non-IE browsers. */
+/* http://www.w3.org/TR/REC-CSS2/selector.html#adjacent-selectors        */
+html>body thead.fixedHeader th {
+	width: 5%;
+}
+
+html>body thead.fixedHeader th+th {
+	width: 12%;
+}
+
+html>body thead.fixedHeader th+th+th {
+	width: 500px;
+}
+
+html>body thead.fixedHeader th+th+th+th {
+	width: 30%;
+}
+
+html>body thead.fixedHeader th+th+th+th+th {
+	width: 10%;
+}
+/* define width of TD elements: 1st, 2nd, and 3rd respectively.          */
+/* All other non-IE browsers.                                            */
+/* http://www.w3.org/TR/REC-CSS2/selector.html#adjacent-selectors        */
+html>body tbody.scrollContent td {
+	width: auto;
+}
+
+html>body tbody.scrollContent td+td {
+	width: auto;
+}
+
+html>body tbody.scrollContent td+td+td {
+	width: auto;
+}
+
+html>body tbody.scrollContent td+td+td+td {
+	width: auto;
+}
+
+html>body tbody.scrollContent td+td+td+td+td {
+	width: 90px;
+}
+
+
+
+

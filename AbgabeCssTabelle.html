@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Abgabe CSS Tabelle</title>
+<link rel="stylesheet" type="text/css" href="csstabelle.css">
+</head>
+<body>
+	<div class="frame">
+		<div class="main">
+			<div class="header" id="textzentriert">
+				Abgabe CSS Tabelle
+				<div class="title">
+					<h1></h1>
+				</div>
+			</div>
+			<div class="navigation">
+				<ul id="Navigation">
+					<li><a href="index.html">Startseite</a></li>
+					<li><a href="infos.html">Biographie</a></li>
+					<li><a href="AbgabeCssTabelle.html">Abgabe CSS Tabelle</a></li>
+					<li><a href="impressum.html">Impressum</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				<table id="tabelleAbgabe">
+					<thead class="fixedHeader">
+						<tr>
+							<th>Nr.</th>
+							<th>Element-Tag</th>
+							<th>Elementbeschreibung</th>
+							<th>Inline- oder Blockelement</th>
+							<th>Semantisches HTML</th>
+						</tr>
+					</thead>
+					<tbody class="scrollContent">
+						<tr>
+							<td>1</td>
+							<td><a>&lt;a&gt;</a></td>
+							<td>Verweis (Hyperlink) und Anker für Verweise</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td><a>&lt;abbr&gt;</a></td>
+							<td>Abkürzung</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td><a>&lt;acronym&gt;</a></td>
+							<td>Akronym</td>
+							<td>Inline-Element</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td><a>&lt;address&gt;</a></td>
+							<td>Kontaktangabe zum Autor eines Inhalts (Credits)</td>
+							<td>Blockelement</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td><a>&lt;area&gt;</a></td>
+							<td>Verweis-sensitiver Bereich in einer Image-Map-Grafik</td>
+							<td>Innerhalb von &lt;map&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td><a>&lt;b&gt;</a></td>
+							<td>Stilistische Hervorhebung im Text (üblicherweise fett
+								dargestellt)</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td><a>&lt;base&gt;</a></td>
+							<td>Basis-URL für Referenzen</td>
+							<td>Innerhalb von &lt;head&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td><a>&lt;bdo&gt;</a></td>
+							<td>Richtungsänderung bei bidirektionalem Text</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td><a>&lt;big&gt;</a></td>
+							<td>Großschrift</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td><a>&lt;blockquote&gt;</a></td>
+							<td>Zitat in Form eines eigenen Textabsatzes</td>
+							<td>Blockelement</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>11</td>
+							<td><a>&lt;body&gt;</a></td>
+							<td>Inhaltsbereich eines HTML-Dokuments</td>
+							<td>Innerhalb von &lt;html&gt; und &lt;noframes&gt; und kann
+								Block- und Inline-Elemente beherbergen</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>12</td>
+							<td><a>&lt;br&gt;</a></td>
+							<td>Erzwungener Zeilenumbruch an der betreffenden Stelle</td>
+							<td>Innerhalb von &lt;body&gt; und innerhallb von Block- und
+								Inline-Elementen</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>13</td>
+							<td><a>&lt;button&gt;</a></td>
+							<td>Schaltfläche in einem Formular</td>
+							<td>Innerhallb von Block- und Inline-Elementen</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>14</td>
+							<td><a>&lt;caption&gt;</a></td>
+							<td>Tabellenüberschrift / -unterschrift</td>
+							<td>Innerhalb von &lt;table&gt;</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>15</td>
+							<td><a>&lt;cite&gt;</a></td>
+							<td>Zitat innerhalb eines Absatzes</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>16</td>
+							<td><a>&lt;code&gt;</a></td>
+							<td>Quelltext-Auszug innerhalb eines Absatzes</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>17</td>
+							<td><a>&lt;col&gt;</a></td>
+							<td>Tabellenspalte</td>
+							<td>Innerhalb von &lt;colgroup&gt; und &lt;table&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>18</td>
+							<td><a>&lt;colgroup&gt;</a></td>
+							<td>Gruppe von Tabellenspalten</td>
+							<td>Innerhalb von &lt;table&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>19</td>
+							<td><a>&lt;dd&gt;</a></td>
+							<td>Definition, Beschreibung, detaillierter Inhalt zu einem
+								dt-Element</td>
+							<td>Innerhalb von &lt;dl&gt;</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>20</td>
+							<td><a>&lt;del&gt;</a></td>
+							<td>gelöschter Inhalt (Änderungsmarkierung)</td>
+							<td>Blockelement / Inline-Element</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>21</td>
+							<td><a>&lt;dfn&gt;</a></td>
+							<td>Definition innerhalb eines Absatzes</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>22</td>
+							<td><a>&lt;div&gt;</a></td>
+							<td>Allgemeiner Bereich</td>
+							<td>Blockelement</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>23</td>
+							<td><a>&lt;dl&gt;</a></td>
+							<td>Liste mit dt- und dd-Elementen, für Definitionslisten,
+								Dialoge usw.</td>
+							<td>Blockelement</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>24</td>
+							<td><a>&lt;dt&gt;</a></td>
+							<td>Zu definierender Ausdruck in einer Definitionsliste,
+								Sprechername in einem Dialog usw.</td>
+							<td>Innerhalb von &lt;dl&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>25</td>
+							<td><a>&lt;em&gt;</a></td>
+							<td>emphatischer Ausdruck innerhalb eines Absatzes (z.B.
+								überspitzte Formulierung)</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>26</td>
+							<td><a>&lt;fieldset&gt;</a></td>
+							<td>Gruppe von Elementen in einem Formular, Reiter in einem
+								Dialog</td>
+							<td>Blockelement</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>27</td>
+							<td><a>&lt;form&gt;</a></td>
+							<td>Formular, Dialog</td>
+							<td>Blockelement</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>28-33</td>
+							<td><a>&lt;h1&gt; - &lt;h6&gt;</a></td>
+							<td>Überschrift 1. bis 6. Ordnung</td>
+							<td>Blockelement(e)</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>34</td>
+							<td><a>&lt;head&gt;</a></td>
+							<td>Kopfbereich eines HTML-Dokuments</td>
+							<td>Innerhalb von &lt;html&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>35</td>
+							<td><a>&lt;hr&gt;</a></td>
+							<td>Trennlinie</td>
+							<td>Blockelement</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>36</td>
+							<td><a>&lt;html&gt;</a></td>
+							<td>Dokumentelement von HTML-Dokumenten, schließt das
+								gesamte Dokument ein</td>
+							<td>Keine Elternelemente</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>37</td>
+							<td><a>&lt;i&gt;</a></td>
+							<td>spezieller Ausdruck im Text, z.B. Fachterminus oder
+								Idiom (üblicherweise kursiv dargestellt)</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>38</td>
+							<td><a>&lt;img&gt;</a></td>
+							<td>Referenzierte und eingebettete Grafik</td>
+							<td>Inline-Element</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>39</td>
+							<td><a>&lt;input&gt;</a></td>
+							<td>Formularelement, verwendbar für diverse Typen wie
+								Eingabefelder, Schaltflächen, Auswahlfelder usw.</td>
+							<td>Inline-Element</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>40</td>
+							<td><a>&lt;ins&gt;</a></td>
+							<td>Eingefügter Inhalt (Änderungsmarkierung)</td>
+							<td>Blockelement / Inline-Element</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>41</td>
+							<td><a>&lt;kbd&gt;</a></td>
+							<td>Darstellung eines über Tastatur einzugebenden Textes im
+								Text</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>42</td>
+							<td><a>&lt;label&gt;</a></td>
+							<td>Beschriftungstext eines Formularfeldes</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>43</td>
+							<td><a>&lt;legend&gt;</a></td>
+							<td>Überschrift für eine fieldset-Gruppe von Elementen in
+								einem Formular</td>
+							<td>Innerhalb von &lt;fieldset&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>44</td>
+							<td><a>&lt;li&gt;</a></td>
+							<td>Listenpunkt in einer ul-, ol- oder menu-Liste</td>
+							<td>Innerhalb von &lt;dir&gt;, &lt;menu&gt;, &lt;ol&gt;,
+								&lt;ul&gt;</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>45</td>
+							<td><a>&lt;link&gt;</a></td>
+							<td>Logische Beziehungen der aktuellen Webseite zu anderen
+								Webseiten</td>
+							<td>Innerhalb von &lt;head&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>46</td>
+							<td><a>&lt;map&gt;</a></td>
+							<td>Bereich für verweis-sensitive Grafiken</td>
+							<td>Inline-Element</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>47</td>
+							<td><a>&lt;meta&gt;</a></td>
+							<td>Meta-Angabe für nicht im Inhalt sichtbare
+								Dokumentinformationen oder für Anweisungen an den Webserver</td>
+							<td>Innerhalb von &lt;head&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>48</td>
+							<td><a>&lt;noscript&gt;</a></td>
+							<td>Bereich für Inhalte, die angezeigt werden, wenn
+								JavaScript im Browser deaktiviert oder nicht verfügbar ist</td>
+							<td>Blockelement</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>49</td>
+							<td><a>&lt;object&gt;</a></td>
+							<td>Eingebettetes Objekt, geeignet für spezielle
+								Multimedia-Objekte, Java-Applets usw.</td>
+							<td>Inline-Element</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>50</td>
+							<td><a>&lt;ol&gt;</a></td>
+							<td>Geordnete (z.B. nummerierte) Liste</td>
+							<td>Blockelement</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>51</td>
+							<td><a>&lt;optgroup&gt;</a></td>
+							<td>Gruppe von Auswahlmöglichkeiten in einer Auswahlliste</td>
+							<td>Innerhalb von &lt;select&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>52</td>
+							<td><a>&lt;option&gt;</a></td>
+							<td>Auswahlmöglichkeit in einer Auswahlliste</td>
+							<td>Innerhalb von &lt;head&gt; und &lt;optgroup&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>53</td>
+							<td><a>&lt;p&gt;</a></td>
+							<td>Textabsatz</td>
+							<td>Blockelement</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>54</td>
+							<td><a>&lt;param&gt;</a></td>
+							<td>Parameter eines Objekts bei object-Element</td>
+							<td>Innerhalb von &lt;applet&gt; und &lt;object&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>55</td>
+							<td><a>&lt;pre&gt;</a></td>
+							<td>Präformatierter Text (alle Whitespace-Zeichen werden im
+								Browser so dargestellt wie im Text enthalten)</td>
+							<td>Blockelement</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>56</td>
+							<td><a>&lt;q&gt;</a></td>
+							<td>Wörtliche Rede in einem Text</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>57</td>
+							<td><a>&lt;samp&gt;</a></td>
+							<td>Beispieltext in einem dokumentierenden Text</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>58</td>
+							<td><a>&lt;script&gt;</a></td>
+							<td>Scriptbereich für JavaScript und andere Scriptsprachen</td>
+							<td>Inline-Element</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>59</td>
+							<td><a>&lt;select&gt;</a></td>
+							<td>Auswahlliste in einem Formular</td>
+							<td>Inline-Element</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>60</td>
+							<td><a>&lt;small&gt;</a></td>
+							<td>kleiner dargestellter Text als Normalschrift</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>61</td>
+							<td><a>&lt;span&gt;</a></td>
+							<td>allgemeiner Bereich innerhalb eines Absatzes</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>62</td>
+							<td><a>&lt;strong&gt;</a></td>
+							<td>stark betonter Inhalt im Text</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>63</td>
+							<td><a>&lt;style&gt;</a></td>
+							<td>Bereich für Stylesheet-Definitionen, z.B. in CSS</td>
+							<td>Innerhalb von &lt;head&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>64</td>
+							<td><a>&lt;sub&gt;</a></td>
+							<td>Tiefgestellter Text</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>65</td>
+							<td><a>&lt;sup&gt;</a></td>
+							<td>Hochgestellter Text</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>66</td>
+							<td><a>&lt;table&gt;</a></td>
+							<td>Tabelle</td>
+							<td>Blockelement</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>67</td>
+							<td><a>&lt;tbody&gt;</a></td>
+							<td>Tabellenkörper mit den eigentlichen Daten</td>
+							<td>Innerhalb von &lt;table&gt;</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>68</td>
+							<td><a>&lt;td&gt;</a></td>
+							<td>Tabellenzelle</td>
+							<td>Innerhalb von &lt;tr&gt;</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>69</td>
+							<td><a>&lt;textarea&gt;</a></td>
+							<td>Mehrzeiliger Eingabebereich in einem Formular</td>
+							<td>Inline-Element</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>70</td>
+							<td><a>&lt;tfoot&gt;</a></td>
+							<td>Fußbereich in einer Tabelle, z.B. für summarische Daten</td>
+							<td>Innerhalb von &lt;table&gt;</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>71</td>
+							<td><a>&lt;th&gt;</a></td>
+							<td>Tabellenkopfzelle</td>
+							<td>Innerhalb von &lt;tr&gt;</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>72</td>
+							<td><a>&lt;thead&gt;</a></td>
+							<td>Kopfbereich einer Tabelle</td>
+							<td>Innerhalb von &lt;table&gt;</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>73</td>
+							<td><a>&lt;title&gt;</a></td>
+							<td>Titel eines HTML-Dokuments</td>
+							<td>Innerhalb von &lt;head&gt;</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>74</td>
+							<td><a>&lt;tr&gt;</a></td>
+							<td>Tabellenzeile</td>
+							<td>Innerhalb von &lt;table&gt;, &lt;tbody&gt;,
+								&lt;tfoot&gt;, &lt;thead&gt;</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>75</td>
+							<td><a>&lt;tt&gt;</a></td>
+							<td>»Fernschreiber«-Text</td>
+							<td>Inline-Element</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td>76</td>
+							<td><a>&lt;ul&gt;</a></td>
+							<td>Unsortierte Liste (Aufzählungsliste)</td>
+							<td>Blockelement</td>
+							<td>JA</td>
+						</tr>
+						<tr>
+							<td>77</td>
+							<td><a>&lt;var&gt;</a></td>
+							<td>Variabler Name in einem dokumentierenden Text</td>
+							<td>Inline-Element</td>
+							<td>JA</td>
+						</tr>
+					</tbody>
+				</table>
+				<p></p>
+				<a
+					href="http://validator.w3.org/check?uri=http%3A%2F%2Fnickkupka248.cloudcontrolled.com%2Findex.html" target="_blank"><img
+					src="valid-xhtml10.png" 
+					alt="Dieses Bild verlinkt auf die Seite des W3C Validators."</a>
+				<a
+					href="http://validator.w3.org/check?uri=http%3A%2F%2Fnickkupka248.cloudcontrolled.com%2Findex.html" target="_blank"><img
+					src="valid-css2-blue.png"
+					alt="Dieses Bild verlinkt auf die Seite des W3C Validators."</a>
+			</div>
+			<div id="footer">
+				<p>Diese Webseite geh&ouml;rt Nick Kupka.</p>
+				<p>Informatikstudent der Technischen Hochschule Mittelhessen
+					WS13/14.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
