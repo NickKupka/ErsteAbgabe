@@ -280,7 +280,7 @@ td {
 	
 }
 
-td.nth-child(1){ text: bold;}
+/*td.nth-child(1){ text: bold;}*/
 
 tr td{
 }
@@ -383,7 +383,7 @@ ul#Navigation a:hover,ul#Navigation span {
 
 #footer {
 	font-size: small;
-	position: center;
+	/*position: center;*/
 	bottom: 10px;
 	margin: 10px;
 	/*text-align: center;*/
