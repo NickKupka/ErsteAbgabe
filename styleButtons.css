@@ -1,0 +1,126 @@
+fieldset{
+	border-style: groove;
+}
+
+fieldset label{
+	font: italic, sans-serif, fantasy;
+	font-style: oblique;
+	font-size: medium;
+}
+
+fieldset input {
+	font-family: monospace;
+}
+
+legend{
+	padding-bottom: 1em;
+}
+
+
+fieldset ol{
+	list-style: none;
+	position: relative;	
+}
+
+fieldset ol li{
+	display: block;
+	float: left;
+	margin-left: 6%;
+	/*margin-right: 14px;*/
+}
+
+button {
+	border: 1px solid #999;
+	background: white;
+	cursor: pointer;
+	border-style: outset;
+}
+
+button h3{
+	width: 100%;
+	color: #fff;
+	padding: .7em  0 .2em 0;
+	background-color: #d00;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+button p{
+	width: 100%;
+	color: #333;
+	margin: 0 2em  0 0;
+	padding-bottom: .5em;
+}
+
+button p strong{
+	font-size: 3em;
+	color: #555;
+}
+
+button:HOVER, button:FOCUS{
+	-webkit-box-shadow: 0 2px 4px 2px rgba(0,0,0,0.3);
+
+}
+button:ACTIVE{
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
+
+ul#headerUL {
+	font: normal 100.00% serif, Helvetica, Arial;
+	background-color: white;
+	text-align: center;
+}
+
+ul#Navigation {
+	margin: 0;
+	padding: 0.8em;
+	text-align: center;
+	border: 1px solid black;
+	background-color: silver;
+}
+
+ul#Navigation li {
+	list-style: none;
+	display: inline;
+	margin: 0.4em;
+	padding: 0;
+}
+
+ul#Navigation a,ul#Navigation span {
+	padding: 0.2em 1em;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid black;
+	border-left-color: white;
+	border-top-color: white;
+	color: black;
+	background-color: #ccc;
+}
+
+* html ul#Navigation a,* html ul#Navigation span {
+	width: 1em; /* nur fuer IE 5.0x erforderlich */
+	w /idth: auto; /* sicherheitshalber fuer IE 6 zurueckgesetzt */
+}
+
+ul#Navigation a:hover,ul#Navigation span {
+	border-color: white;
+	border-left-color: black;
+	border-top-color: black;
+	color: white;
+	background-color: gray;
+}
+
+#footer {
+	font-size: small;
+	position: center;
+	bottom: 0px;
+	margin: 0;
+	text-align: center;
+	position: center;
+}
+
+#textzentriert {
+	text-align: center;
+	font-weight: bold;
+}

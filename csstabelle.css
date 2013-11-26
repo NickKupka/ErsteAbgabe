@@ -263,6 +263,7 @@ sup {
 
 table {
 	border-style: double;
+	margin-left: 10%;
 	/*align:center;*/
 	border: 0;
 }
@@ -383,11 +384,11 @@ ul#Navigation a:hover,ul#Navigation span {
 
 #footer {
 	font-size: small;
-	/*position: center;*/
+	position: center;
 	bottom: 10px;
 	margin: 10px;
-	/*text-align: center;*/
-	/*position: center;*/
+	text-align: center;
+	position: center;
 }
 
 thead.fixedHeader tr {
@@ -396,7 +397,7 @@ thead.fixedHeader tr {
 
 html>body thead.fixedHeader tr {
 	display: block;
-	width: 80%;
+	width: 90%;
 }
 
 /* make the TH elements pretty */
@@ -418,7 +419,7 @@ html>body tbody.scrollContent {
 	display: block;
 	height: 280px;
 	overflow: auto;
-	width: 80%;
+	width: 90%;
 }
 
 /* make TD elements pretty. Provide alternating classes for striping the table */
@@ -438,23 +439,23 @@ tbody.scrollContent td,tbody.scrollContent tr.normalRow td {
 /* Add 16px to last TH for scrollbar padding. All other non-IE browsers. */
 /* http://www.w3.org/TR/REC-CSS2/selector.html#adjacent-selectors        */
 html>body thead.fixedHeader th {
-	width: 5%;
+	width: 45px;
 }
 
 html>body thead.fixedHeader th+th {
-	width: 12%;
+	width: 120px;
 }
 
 html>body thead.fixedHeader th+th+th {
-	width: 500px;
+	width: 450px;
 }
 
 html>body thead.fixedHeader th+th+th+th {
-	width: 30%;
+	width: 358px;
 }
 
 html>body thead.fixedHeader th+th+th+th+th {
-	width: 10%;
+	width: 100px;
 }
 /* define width of TD elements: 1st, 2nd, and 3rd respectively.          */
 /* All other non-IE browsers.                                            */

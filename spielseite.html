@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Konzertkarten kaufen</title>
+<meta content="text/html" charset="utf-8">
+<link rel="stylesheet" type="text/css" href="styleButtons.css">
+<script type="text/javascript">
+	function chkFormular() {
+		if (document.Formular.vorname.value == "") {
+			alert("Bitte Ihren Vornamen eingeben!");
+			document.Formular.User.focus();
+			return false;
+		}
+		if (document.Formular.nachname.value == "") {
+			alert("Bitte Ihren Nachname eingeben!");
+			document.Formular.Ort.focus();
+			return false;
+		}
+		if (document.Formular.strasse.value == "") {
+			alert("Bitte Ihre Strasse eingeben!");
+			document.Formular.Ort.focus();
+			return false;
+		}
+		if (document.Formular.hausnummer.value == "") {
+			alert("Bitte Ihre Hausnummer eingeben!");
+			document.Formular.Ort.focus();
+			return false;
+		}
+		if (document.Formular.plz.value == "") {
+			alert("Bitte Ihre Postleitzahl eingeben!");
+			document.Formular.Ort.focus();
+			return false;
+		}
+		if (document.Formular.ort.value == "") {
+			alert("Bitte Ihren Wohnort eingeben!");
+			document.Formular.Ort.focus();
+			return false;
+		}
+		if (document.Formular.email.value == "") {
+			alert("Bitte Ihre E-Mail-Adresse eingeben!");
+			document.Formular.Mail.focus();
+			return false;
+		}
+	}
+</script>
+</head>
+<body>
+	<div class="frame">
+		<div class="main">
+			<div class="header" id="textzentriert">
+				Konzertkarten kaufen
+				<div class="title">
+					<h1></h1>
+				</div>
+			</div>
+			<div class="navigation">
+				<ul id="Navigation">
+					<li><a href="index.html">Startseite</a></li>
+					<li><a href="infos.html">Biographie</a></li>
+					<li><a href="AbgabeCssTabelle.html">Abgabe CSS Tabelle</a></li>
+					<li><a href="spielseite.html">Konzertkarten</a></li>
+					<li><a href="impressum.html">Impressum</a></li>
+				</ul>
+			</div>
+			<br>
+			<fieldset>
+				<legend>Waehle Kategorie</legend>
+				<ol>
+					<li>
+						<button type="submit" name="Konzert" value="stehplatz">
+							<h3>Stehplatz</h3>
+							<p>
+								<strong>19,99€</strong>
+							</p>
+							<p>(Innenraum)</p>
+						</button>
+					</li>
+					<li>
+						<button type="submit" name="Konzert" value="sitzplatz">
+							<h3>Sitzplatz</h3>
+							<p>
+								<strong>25,99€</strong>
+							</p>
+							<p>(Unterer Rang)</p>
+						</button>
+					</li>
+					<li>
+						<button type="submit" name="Konzert" value="sitzplatz2">
+							<h3>Sitzplatz</h3>
+							<p>
+								<strong>35,99€</strong>
+							</p>
+							<p>(Oberer Rang)</p>
+						</button>
+					</li>
+					<li>
+						<button type="submit" name="Konzert" value="VIP">
+							<h3>VIP Ticket</h3>
+							<p>
+								<strong>59,99€</strong>
+							</p>
+							<p>(VIP Ticket)</p>
+						</button>
+					</li>
+				</ol>
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>Waehle Anzahl</legend>
+				<div>
+					<label for="anzahlKarten">Bitte anzahl der Karten
+						auswaehlen</label> <br> <select id="anzahlKarten" name="anzahlKarten">
+						<option value="1">1 Karte</option>
+						<option value="2">2 Karten</option>
+						<option value="3">3 Karten</option>
+						<option value="4">4 Karten</option>
+					</select>
+				</div>
+			</fieldset>
+			<br>
+			<form name="Formular"
+				action="http://nickkupka248.cloudcontrolled.com" method="post"
+				onsubmit="return chkFormular()">
+				<fieldset>
+					<legend>Adresse</legend>
+					<label for="vorname" class="left">Vorname</label> <br> <input
+						required="required" type="text" id="vorname" name="vorname"
+						size="20"><br> <br> <label for="nachname"
+						class="left">Nachname</label> <br> <input required="required"
+						type="text" id="nachname" name="nachname" size="20"><br>
+					<br> <label for="stasse" class="left">Strasse</label><br>
+					<input required="required" type="text" id="stasse" name="stasse"
+						size="20"> <br> <br> <label for="hausnummer"
+						class="left">Hausnummer</label> <br> <input
+						required="required" type="number" id="hausnummer"
+						name="hausnummer" size="6"> <br> <br> <label
+						for="plz" class="left">PLZ</label> <br> <input
+						required="required" type="number" id="plz" name="plz" size="5">
+					<br> <br> <label for="ort" class="left">Ort</label> <br>
+					<input required="required" type="text" id="ort" name="ort"
+						size="20"><br> <br> <label for="email"
+						class="left">E-Mail</label><br> <input required="required"
+						type="email" id="email" name="email" size="20"><br> <br>
+					<button type="submit" name="abschicken" value="abschicken">
+						<p>Bestellung absenden</p>
+					</button>
+				</fieldset>
+			</form>
+		</div>
+		<div id="footer">
+			<p>Diese Webseite geh&ouml;rt Nick Kupka.</p>
+			<p>Informatikstudent der Technischen Hochschule Mittelhessen
+				WS13/14.</p>
+		</div>
+	</div>
+</body>
+</html>
