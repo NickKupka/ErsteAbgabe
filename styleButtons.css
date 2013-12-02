@@ -1,6 +1,37 @@
 fieldset{
 	border-style: groove;
+	width:  90%;
+	margin-left: 20px;
+	margin-right: 20px;
 }
+
+
+
+body div div form fieldset input {
+	size: 30px;
+}
+
+body div div iframe {
+	border-style: inherit;
+}
+
+body div div iframe {
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+}
+
+body div div form fieldset legend {
+	margin-top: 20px;
+	font-family: inherit;
+	font-size: large;
+}
+
+body div div form fieldset input {
+	font-family: inherit;
+	font-size: large;
+}
+
 
 fieldset label{
 	font: italic, sans-serif, fantasy;
@@ -25,7 +56,8 @@ fieldset ol{
 fieldset ol li{
 	display: block;
 	float: left;
-	margin-left: 6%;
+	margin-left: 3%;
+	margin-bottom: 3%;
 	/*margin-right: 14px;*/
 }
 
@@ -66,6 +98,51 @@ button:ACTIVE{
 	left: 1px;
 }
 
+.frame{
+	background-image: url("brickbackground.jpg");
+	margin: 0;
+}
+.main{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-left: 60px;
+	margin-right: 60px;
+	background-color: white;
+}
+
+/*.content{
+		background-image: url("nicklogo.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background: mm; 
+}*/
+
+
+.header{
+	margin-top: 2%;
+}
+
+.header h1{
+	margin-top: 5px;
+	font-family: cursive;
+	font: bold;
+	color: white;
+}
+
+.navigation{
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+body {
+	font: normal 100.01% serif, Helvetica, Arial, sans-serif;
+	color: black;
+	background-color: white;
+	background-image: url("brickbackground.jpg");
+}
+
 ul#headerUL {
 	font: normal 100.00% serif, Helvetica, Arial;
 	background-color: white;
@@ -76,8 +153,7 @@ ul#Navigation {
 	margin: 0;
 	padding: 0.8em;
 	text-align: center;
-	border: 1px solid black;
-	background-color: silver;
+		
 }
 
 ul#Navigation li {
@@ -100,7 +176,7 @@ ul#Navigation a,ul#Navigation span {
 
 * html ul#Navigation a,* html ul#Navigation span {
 	width: 1em; /* nur fuer IE 5.0x erforderlich */
-	w /idth: auto; /* sicherheitshalber fuer IE 6 zurueckgesetzt */
+	width: auto; /* sicherheitshalber fuer IE 6 zurueckgesetzt */
 }
 
 ul#Navigation a:hover,ul#Navigation span {
@@ -108,19 +184,27 @@ ul#Navigation a:hover,ul#Navigation span {
 	border-left-color: black;
 	border-top-color: black;
 	color: white;
-	background-color: gray;
-}
-
-#footer {
-	font-size: small;
-	position: center;
-	bottom: 0px;
-	margin: 0;
-	text-align: center;
-	position: center;
+	background-color: black;
+	text-shadow: white;
 }
 
 #textzentriert {
 	text-align: center;
 	font-weight: bold;
 }
+
+#impressum {
+	text-align: center;
+}
+
+
+#footer {
+	font-size: small;
+	position: center;
+	bottom: 0px;
+	text-align: center;
+	position: center;
+	color: white;
+	background-image: url("brickbackground.jpg");
+}
+

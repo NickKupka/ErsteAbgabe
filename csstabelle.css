@@ -1,271 +1,13 @@
-a {
-	
-}
 
-abbr {
-	
-}
-
-acronym {
-	
-}
-
-address {
-	
-}
-
-area {
-	
-}
-
-b {
-	
-}
-
-base {
-	
-}
-
-bdo {
-	
-}
-
-big {
-	
-}
-
-blockquote {
-	
-}
-
-body {
-	
-}
-
-br {
-	
-}
-
-button {
-	
-}
-
-caption {
-	
-}
-
-cite {
-	
-}
-
-
-code {
-	
-}
-
-col {
-	
-}
-
-colgroup {
-	
-}
-
-dd {
-	
-}
-
-del {
-	
-}
-
-dfn {
-	
-}
-
-div {
-	
-}
-
-dl {
-	
-}
-
-dt {
-	
-}
-
-em {
-	
-}
-
-fieldset {
-	
-}
-
-form {
-	
-}
-
-h1 {
-	
-}
-
-h2 {
-	
-}
-
-h3 {
-	
-}
-
-h4 {
-	
-}
-
-h5 {
-
-}
-
-h6 {
-	
-}
-
-head {
-	
-}
-
-hr {
-	
-}
-
-html {
-	
-}
-
-i {
-	
-}
-
-img {
-	
-}
-
-input {
-	
-}
-
-ins {
-	
-}
-
-
-kbd {
-	
-}
-
-label {
-	
-}
-
-legend {
-	
-}
-
-li {
-	
-}
-
-link {
-	
-}
-
-map {
-	
-}
-
-meta {
-	
-}
-
-noscript {
-	
-}
-
-object {
-	
-}
-
-ol {
-	
-}
-
-optgroup {
-	
-}
-
-option {
-	
-}
-
-p {
-	
-}
-
-param {
-	
-}
-
-pre {
-	
-}
-
-q {
-	
-}
-
-
-samp {
-	
-}
-
-script {
-	
-}
-
-select {
-	
-}
-
-small {
-	
-}
-
-span {
-	
-}
-
-strong {
-	
-}
-
-style {
-	
-}
-
-sub {
-	
-}
-
-sup {
-	
-}
 
 table {
 	border-style: double;
 	margin-left: 10%;
 	/*align:center;*/
 	border: 0;
+}
+div div table {
+	
 }
 
 
@@ -324,6 +66,51 @@ var {
 
 
 
+.frame{
+	background-image: url("brickbackground.jpg");
+	margin: 0;
+}
+.main{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-left: 60px;
+	margin-right: 60px;
+	background-color: white;
+}
+
+/*.content{
+		background-image: url("nicklogo.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background: mm; 
+}*/
+
+
+.header{
+	margin-top: 2%;
+}
+
+.header h1{
+	margin-top: 5px;
+	font-family: cursive;
+	font: bold;
+	color: white;
+}
+
+.navigation{
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+body {
+	font: normal 100.01% serif, Helvetica, Arial, sans-serif;
+	color: black;
+	background-color: white;
+	background-image: url("brickbackground.jpg");
+}
+
 ul#headerUL {
 	font: normal 100.00% serif, Helvetica, Arial;
 	background-color: white;
@@ -331,11 +118,10 @@ ul#headerUL {
 }
 
 ul#Navigation {
-	margin: 25px;
+	margin: 0;
 	padding: 0.8em;
 	text-align: center;
-	border: 1px solid black;
-	background-color: silver;
+		
 }
 
 ul#Navigation li {
@@ -366,7 +152,8 @@ ul#Navigation a:hover,ul#Navigation span {
 	border-left-color: black;
 	border-top-color: black;
 	color: white;
-	background-color: gray;
+	background-color: black;
+	text-shadow: white;
 }
 
 #textzentriert {
@@ -378,26 +165,25 @@ ul#Navigation a:hover,ul#Navigation span {
 	text-align: center;
 }
 
-/*#tabelleAbgabe{
-	position: center;
-}*/
 
 #footer {
 	font-size: small;
 	position: center;
-	bottom: 10px;
-	margin: 10px;
+	bottom: 0px;
 	text-align: center;
 	position: center;
+	color: white;
+	background-image: url("brickbackground.jpg");
 }
 
 thead.fixedHeader tr {
 	position: relative;
+	margin-top: 60px;
 }
 
 html>body thead.fixedHeader tr {
 	display: block;
-	width: 90%;
+	width: 110%;
 }
 
 /* make the TH elements pretty */
@@ -419,7 +205,7 @@ html>body tbody.scrollContent {
 	display: block;
 	height: 280px;
 	overflow: auto;
-	width: 90%;
+	width: 110%;
 }
 
 /* make TD elements pretty. Provide alternating classes for striping the table */
