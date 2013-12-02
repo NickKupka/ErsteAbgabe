@@ -1,8 +1,9 @@
 fieldset{
-	border-style: none;
+	border-style: groove;
 	width:  90%;
 	margin-left: 20px;
 	margin-right: 20px;
+	margin-top: 20px;
 }
 
 
@@ -21,8 +22,8 @@ body div div iframe {
 	margin-bottom: 50px;
 }
 
-body div div form fieldset label {
-	margin-top: 40px;
+body div div form fieldset legend {
+	margin-top: 20px;
 	font-family: inherit;
 	font-size: large;
 }
