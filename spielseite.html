@@ -8,39 +8,40 @@
 	function chkFormular() {
 		if (document.Formular.vorname.value == "") {
 			alert("Bitte Ihren Vornamen eingeben!");
-			document.Formular.User.focus();
+			document.Formular.vorname.focus();
 			return false;
 		}
 		if (document.Formular.nachname.value == "") {
 			alert("Bitte Ihren Nachname eingeben!");
-			document.Formular.Ort.focus();
+			document.Formular.nachname.focus();
 			return false;
 		}
 		if (document.Formular.strasse.value == "") {
 			alert("Bitte Ihre Strasse eingeben!");
-			document.Formular.Ort.focus();
+			document.Formular.strasse.focus();
 			return false;
 		}
 		if (document.Formular.hausnummer.value == "") {
 			alert("Bitte Ihre Hausnummer eingeben!");
-			document.Formular.Ort.focus();
+			document.Formular.hausnummer.focus();
 			return false;
 		}
 		if (document.Formular.plz.value == "") {
 			alert("Bitte Ihre Postleitzahl eingeben!");
-			document.Formular.Ort.focus();
+			document.Formular.plz.focus();
 			return false;
 		}
 		if (document.Formular.ort.value == "") {
 			alert("Bitte Ihren Wohnort eingeben!");
-			document.Formular.Ort.focus();
+			document.Formular.ort.focus();
 			return false;
 		}
 		if (document.Formular.email.value == "") {
 			alert("Bitte Ihre E-Mail-Adresse eingeben!");
-			document.Formular.Mail.focus();
+			document.Formular.email.focus();
 			return false;
-		}
+		}else{alert('Geschafft');}
+	
 	}
 </script>
 </head>
@@ -114,7 +115,7 @@
 			</fieldset>
 			<br>
 			<form name="Formular"
-				action="http://nickkupka248.cloudcontrolled.com" method="post"
+				 method="post"
 				onsubmit="return chkFormular()">
 				<fieldset>
 					<legend>Adresse</legend>
